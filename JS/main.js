@@ -10,7 +10,6 @@ setInterval(()=>{
     let currSec = date.getSeconds();
     let currMin = date.getMinutes();
     let currHour = date.getHours() % 12;
-    let currHourNow = date.getHours();
 
     console.log(currSec,currMin,currHour);
     pointerSec.style.transform = `rotate(${currSec * 6}deg)`
